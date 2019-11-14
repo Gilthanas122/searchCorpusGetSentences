@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: /home/pityu/Desktop/codes2/mullerSearchText/out/production/m
+ ullerSearchText
+Main-Class: Main
+
