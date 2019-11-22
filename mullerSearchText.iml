@@ -7,5 +7,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libsIntellij/poi-4.1.1" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../libsIntellij/poi-4.1.1/docs/apidocs/dev" />
+        </JAVADOC>
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../libsIntellij/poi-4.1.1" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

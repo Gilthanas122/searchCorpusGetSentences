@@ -1,32 +1,4 @@
-import org.openxmlformats.schemas.wordprocessingml.x2006.main.STHexColorRGB;
-import org.w3c.dom.ls.LSOutput;
-
-import javax.swing.*;
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-import java.security.SecureRandom;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.ZoneId;
-import java.util.*;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import org.apache.poi.hwpf.HWPFDocument;
-import org.apache.poi.hwpf.extractor.WordExtractor;
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-
-
-public class Main {
-    public static void main(String[] args) throws IOException {
+  public static void main(String[] args) throws IOException {
         File folder = new File("textFiles");
         File[] listOfFiles = folder.listFiles();
         Scanner reader = new Scanner(System.in);  // Reading from System.in
@@ -98,5 +70,3 @@ public class Main {
         }
         fw.close();
     }
-}
-
